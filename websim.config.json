@@ -1,0 +1,33 @@
+{
+  "database": {
+    "schema": {
+      "alchemist_journeys": {
+        "id": {
+          "type": "uuid",
+          "description": "Unique identifier for each completed journey"
+        },
+        "user_id": {
+          "type": "text",
+          "description": "The ID of the user who completed the journey"
+        },
+        "username": {
+          "type": "text",
+          "description": "The username of the user who completed the journey"
+        },
+        "journey_name": {
+          "type": "text",
+          "description": "The name the user provided for their journey"
+        },
+        "chosen_animal": {
+          "type": "text",
+          "description": "The animal chosen by the user"
+        },
+        "final_rarity_score": {
+          "type": "numeric",
+          "description": "The final rarity score of the user's journey"
+        }
+      }
+    }
+  }
+}
+
